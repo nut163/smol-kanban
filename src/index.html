@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="loginForm">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+    <button id="logoutButton" onclick="logout()">Logout</button>
+    <div id="todoColumn" class="taskColumn">
+        <h2>Todo</h2>
+        <button onclick="createTask('Todo')">Add Task</button>
+    </div>
+    <div id="inProgressColumn" class="taskColumn">
+        <h2>In Progress</h2>
+        <button onclick="createTask('In Progress')">Add Task</button>
+    </div>
+    <div id="doneColumn" class="taskColumn">
+        <h2>Done</h2>
+        <button onclick="createTask('Done')">Add Task</button>
+    </div>
+    <script src="js/localStorage.js"></script>
+    <script src="js/dragAndDrop.js"></script>
+    <script src="js/authentication.js"></script>
+    <script src="js/kanban.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/category.js"></script>
+    <script src="js/color.js"></script>
+    <script src="js/task.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/password.js"></script>
+    <script src="js/username.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/worker.js"></script>
+</body>
+</html>
